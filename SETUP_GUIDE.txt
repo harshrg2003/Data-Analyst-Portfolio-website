@@ -1,0 +1,152 @@
+═══════════════════════════════════════════════════════════════
+    HARSH'S PORTFOLIO WEBSITE - SETUP GUIDE
+═══════════════════════════════════════════════════════════════
+
+🎉 Welcome! Let's get your portfolio website running in 3 easy steps!
+
+═══════════════════════════════════════════════════════════════
+STEP 1: INSTALL NODE.JS (If you don't have it)
+═══════════════════════════════════════════════════════════════
+
+1. Go to: https://nodejs.org/
+2. Download the LTS (Long Term Support) version
+3. Install it (just click Next → Next → Install)
+4. Verify installation by opening Terminal/Command Prompt and typing:
+   
+   node --version
+   
+   You should see something like: v18.17.0 or v20.x.x
+
+═══════════════════════════════════════════════════════════════
+STEP 2: OPEN THE PROJECT
+═══════════════════════════════════════════════════════════════
+
+🪟 WINDOWS USERS:
+1. Extract the portfolio-website folder to your Desktop
+2. Open Command Prompt (Press Win + R, type "cmd", press Enter)
+3. Type: cd Desktop\portfolio-website
+4. Press Enter
+
+🍎 MAC/LINUX USERS:
+1. Extract the portfolio-website folder to your Desktop
+2. Open Terminal
+3. Type: cd Desktop/portfolio-website
+4. Press Enter
+
+═══════════════════════════════════════════════════════════════
+STEP 3: RUN THE WEBSITE
+═══════════════════════════════════════════════════════════════
+
+In your Terminal/Command Prompt, run these commands:
+
+1. Install dependencies (first time only):
+   
+   npm install
+   
+   ⏰ This will take 1-2 minutes. Wait for it to complete!
+
+2. Start the development server:
+   
+   npm run dev
+   
+   ✨ Your website will open automatically at http://localhost:3000
+
+3. To stop the server:
+   
+   Press Ctrl + C
+
+═══════════════════════════════════════════════════════════════
+🎨 CUSTOMIZE YOUR PORTFOLIO
+═══════════════════════════════════════════════════════════════
+
+Open the file: portfolio-website/src/App.jsx
+
+Update these sections:
+
+📝 YOUR INFO (Lines ~90-110):
+   - Your name, title, description
+   - Email, phone, location
+
+💼 PROJECTS (Lines ~40-70):
+   - Add your project details
+   - Update project links (change "#" to your actual links)
+
+🏢 EXPERIENCE (Lines ~75-95):
+   - Update company details
+   - Modify achievements
+
+🛠️ SKILLS (Lines ~100-130):
+   - Add/remove skills
+   - Update certifications
+
+🔗 SOCIAL LINKS (Search for "linkedin.com" and "github.com"):
+   - Replace with YOUR actual LinkedIn profile URL
+   - Replace with YOUR actual GitHub profile URL
+
+═══════════════════════════════════════════════════════════════
+🚀 DEPLOY YOUR WEBSITE (Make it live!)
+═══════════════════════════════════════════════════════════════
+
+OPTION 1: VERCEL (Easiest, FREE, Recommended)
+----------------------------------------
+1. Go to https://vercel.com
+2. Sign up with GitHub
+3. Click "New Project"
+4. Import your portfolio repository
+5. Click "Deploy"
+6. Done! You'll get a URL like: harsh-portfolio.vercel.app
+
+OPTION 2: NETLIFY (FREE)
+----------------------------------------
+1. Run: npm run build
+2. Go to https://app.netlify.com
+3. Drag & drop the "dist" folder
+4. Done! Your site is live!
+
+OPTION 3: GITHUB PAGES (FREE)
+----------------------------------------
+1. Create a GitHub repository
+2. Push your code
+3. Go to Settings → Pages
+4. Select your branch
+5. Your site will be live at: yourusername.github.io/portfolio-website
+
+═══════════════════════════════════════════════════════════════
+❓ TROUBLESHOOTING
+═══════════════════════════════════════════════════════════════
+
+Problem: "npm: command not found"
+Solution: Install Node.js first (see STEP 1)
+
+Problem: Port 3000 already in use
+Solution: Run: npm run dev -- --port 3001
+
+Problem: Errors during npm install
+Solution: Delete node_modules folder and run: npm install again
+
+Problem: Website not opening automatically
+Solution: Manually open: http://localhost:3000 in your browser
+
+═══════════════════════════════════════════════════════════════
+📧 NEED MORE HELP?
+═══════════════════════════════════════════════════════════════
+
+1. Check the README.md file in the portfolio-website folder
+2. Google any error messages you see
+3. Ask ChatGPT or Claude for help with specific errors
+
+═══════════════════════════════════════════════════════════════
+✅ QUICK COMMANDS REFERENCE
+═══════════════════════════════════════════════════════════════
+
+npm install          → Install dependencies (first time only)
+npm run dev          → Start development server
+npm run build        → Create production build
+Ctrl + C            → Stop the server
+
+═══════════════════════════════════════════════════════════════
+
+Good luck with your portfolio! 🎉
+You're going to land that Data Analyst job! 💼✨
+
+═══════════════════════════════════════════════════════════════
