@@ -207,6 +207,11 @@ export default function HarshPortfolio() {
       color: "violet",
     },
     {
+      name: "Applied Data Science Lab",
+      provider: "WorldQuant University",
+      color: "purple",
+    },
+    {
       name: "Data Analysis with Python",
       provider: "freeCodeCamp",
       color: "blue",
